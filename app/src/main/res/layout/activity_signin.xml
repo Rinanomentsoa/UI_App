@@ -19,116 +19,13 @@
             android:layout_marginTop="52dp"
             android:layout_marginEnd="160dp"
             android:fontFamily="cursive"
-            android:text="@string/hello"
+            android:text="Hello, welcome to sign in window"
             android:textColor="@color/emeraude"
             android:textSize="50sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/name_display"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="160dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="160dp"
-            android:fontFamily="cursive"
-            android:text="name"
-            android:textColor="@color/emeraude"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/hello" />
-
-        <TextView
-            android:id="@+id/wish"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="50dp"
-            android:fontFamily="cursive"
-            android:text="@string/great_wish"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/emeraude"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.505"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/name_display" />
-
-        <TextView
-            android:id="@+id/bmi_details"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginRight="50dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:fontFamily="sans-serif-thin"
-            android:text="@string/tell_me_more_about_bmi"
-            android:textAlignment="textEnd"
-            android:textAllCaps="false"
-            android:textColor="@color/yellow"
-            android:textSize="17sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/wish" />
-
-        <EditText
-            android:id="@+id/input_pound"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="40dp"
-            android:autofillHints=""
-            android:hint="@string/enter_your_pound_in_kilogram"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:textColorHint="@color/rose"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bmi_details" />
-
-        <EditText
-            android:id="@+id/input_height"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="40dp"
-            android:autofillHints=""
-            android:hint="@string/enter_your_height_in_centimeter"
-            android:inputType="number"
-            android:minHeight="48dp"
-            android:textColorHint="@color/rose"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/input_pound" />
-
-        <Button
-            android:id="@+id/bmi_button"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
-            android:backgroundTint="@color/orange"
-            android:text="@string/show_my_bmi"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/input_height"
-            android:onClick="viewResult" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

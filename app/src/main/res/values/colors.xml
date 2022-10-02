@@ -14,10 +14,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#2B343D</color>
     <color name="darkblue">#082857</color>
-    <color name="orangetp">#77FF6E0D</color>
-    <color name="bluetp">#7900AEFF</color>
+    <color name="orangetpn">#77FF6E0D</color>
+    <color name="bluetpn">#7900AEFF</color>
     <color name="emeraudet">#5104C58E</color>
-    <color name="roset">#439E0737</color>
+    <color name="rosetn">#439E0737</color>
     <color name="yellowt">#4DDAA300</color>
     <color name="greyt">#709C8B8B</color>
     <color name="darkbluet">#082857</color>

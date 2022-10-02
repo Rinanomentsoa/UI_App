@@ -28,7 +28,7 @@
             android:parentActivityName=".SignupActivity">
         </activity>
         <activity
-            android:name=".SigninActivity"
+            android:name=".WelcomeActivity"
             android:exported="true"
             android:parentActivityName=".SignupActivity">
         </activity>
